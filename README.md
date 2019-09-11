@@ -3,26 +3,26 @@
 
 
 ## Setup
->This project uses 'Windows 8.1', 'npm', and 'Jest ^24.9.0'.
+>This project uses `Windows 8.1`, `npm`, and `Jest ^24.9.0`.
 
 For the setup of this project you will need to follow these steps:
 1.  Navigate to the folder containing my code files in the command prompt
-2.  Type in 'npm install'
+2.  Type in `npm install`
     - Follow install steps
-3.  Type in 'npm install --save-dev jest'
-4.  In your 'package.json' file make sure the following lines are present:
-'''
+3.  Type in `npm install --save-dev jest`
+4.  In your `package.json` file make sure the following lines are present:
+```
 {
   "scripts": {
     "test": "jest"
   }
 }
-'''
-5.  Now you should be able to type 'npm run test' to see the jest testing output
+```
+5.  Now you should be able to type `npm run test` to see the jest testing output
 
 
 ### Naming and organizational conventions
->I decided that my variables should speak for themselves when looking at the functions and tried to name them descriptively but succinct. All my tests were written in a 'describe()' and 'it()' format and all test files were named after the file they tested with '.test' stuck between the name the '.js'.
+>I decided that my variables should speak for themselves when looking at the functions and tried to name them descriptively but succinct. All my tests were written in a `describe()` and `it()` format and all test files were named after the file they tested with `.test` stuck between the name the `.js`.
 
 
 #### Report
