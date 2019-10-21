@@ -12,7 +12,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-				sh 'npm install --save-dev jest'
             }
         }
         stage('Test') {
