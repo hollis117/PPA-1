@@ -9,21 +9,14 @@
     "retirement": "jest retirement.test.js",
     "email": "jest emailVerifier.test.js",
     "tip": "jest splitTip.test.js",
-    "short": "jest shortestDistance.test.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "short": "jest shortestDistance.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.9.0",
-    "nyc": "^14.1.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "nyc": "^14.1.1"
   },
   "dependencies": {
     "babel-plugin-istanbul": "^5.2.0",
