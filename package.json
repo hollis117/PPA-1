@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "coverage": "jest --coverage",
     "bmi": "jest bmi.test.js",
     "retirement": "jest retirement.test.js",
