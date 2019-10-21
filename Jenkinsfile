@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'node run jest'
+                sh 'npm run test'
             }
         }
     }
