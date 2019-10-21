@@ -12,12 +12,12 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                sh 'npm install jest'
+				sh 'npm install --save-dev jest'
             }
         }
         stage('Test') {
             steps {
-                sh 'npm run jest'
+                sh './jenkins/scripts/test.sh'
             }
         }
         stage('Deliver') {
