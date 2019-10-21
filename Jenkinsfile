@@ -15,11 +15,6 @@ pipeline {
             }
         }
         stage('Test') {
-			agent {
-                docker {
-                image 'mysql/mysql-server'
-                args '--name test -e MYSQL_ROOT_PASSWORD=root -d'}
-            }
             steps {
                 sh 'npm run test'
             }
