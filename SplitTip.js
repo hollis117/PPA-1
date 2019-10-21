@@ -20,5 +20,3 @@ function splitTip (price, people) {
   }
 }
 module.exports = splitTip;
-//I think the example in the project doc is wrong for this question
-//It doesn't include the tip in the calculation
